@@ -1,18 +1,18 @@
-# a = 43
-# b = 8
-#
-# print(a + b)
-# print(a - b)
-# print(a * b)
-# print(a / b)
-# print(a // b)
-# print(a % b)
-#
-# for i in range(5):
-#     print(i)
+word = "Daniel is a good programmer"
 
-greeting = "Hello "
+print(word[2])
+# print(word[:6])
+# print(word[2:6])
+# print(word[7:])
+# print(word[-10:])
+# print(word[0:15:2])
 
-name = input("Type in your name: ")
+number = "1, 2, 3, 4, 5, 6, 7, 8, 9"
+print(number[0::3])
 
-print(greeting + name)
+# print((word + "\n") * 10)
+
+today = "friday"
+
+print("day" in today)
+print("Day" in today)
