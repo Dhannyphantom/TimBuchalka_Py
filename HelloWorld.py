@@ -1,6 +1,18 @@
-print('Hello World')
-greeting = "Hello"
-name = "Daniel"
+# a = 43
+# b = 8
+#
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a / b)
+# print(a // b)
+# print(a % b)
+#
+# for i in range(5):
+#     print(i)
 
-print(greeting + " " + name)
-print(4+5)
+greeting = "Hello "
+
+name = input("Type in your name: ")
+
+print(greeting + name)
